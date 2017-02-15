@@ -38,10 +38,6 @@
     self.phrases = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Phrases" ofType:@"plist"]].mutableCopy;
     self.meanings = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Meanings" ofType:@"plist"]].mutableCopy;
 
-
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.leftBarButtonItem = addButton;
-
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 
     self.tableView.estimatedRowHeight = 44;
@@ -52,9 +48,6 @@
 
     [super viewWillAppear:animated];
 }
-
-
-
 
 - (void)insertNewObject:(id)sender {
 
