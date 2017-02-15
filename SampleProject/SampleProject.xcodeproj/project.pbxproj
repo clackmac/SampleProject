@@ -14,6 +14,8 @@
 		0E2A36FB1BB33E60007BC784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2A36F91BB33E60007BC784 /* Main.storyboard */; };
 		0E2A36FD1BB33E60007BC784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2A36FC1BB33E60007BC784 /* Assets.xcassets */; };
 		0E2A37001BB33E60007BC784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2A36FE1BB33E60007BC784 /* LaunchScreen.storyboard */; };
+		0EAF0EB21E54AF3A00FFAF55 /* Phrases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF0EB11E54AF3A00FFAF55 /* Phrases.plist */; };
+		0EAF0EB41E54AFDF00FFAF55 /* Meanings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF0EB31E54AFDF00FFAF55 /* Meanings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		0E2A36FC1BB33E60007BC784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2A36FF1BB33E60007BC784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2A37011BB33E61007BC784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAF0EB11E54AF3A00FFAF55 /* Phrases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Phrases.plist; sourceTree = "<group>"; };
+		0EAF0EB31E54AFDF00FFAF55 /* Meanings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Meanings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				0E2A36F41BB33E60007BC784 /* MasterViewController.m */,
 				0E2A36F61BB33E60007BC784 /* DetailViewController.h */,
 				0E2A36F71BB33E60007BC784 /* DetailViewController.m */,
+				0EAF0EB11E54AF3A00FFAF55 /* Phrases.plist */,
+				0EAF0EB31E54AFDF00FFAF55 /* Meanings.plist */,
 				0E2A36F91BB33E60007BC784 /* Main.storyboard */,
 				0E2A36FC1BB33E60007BC784 /* Assets.xcassets */,
 				0E2A36FE1BB33E60007BC784 /* LaunchScreen.storyboard */,
@@ -110,7 +116,7 @@
 		0E2A36E21BB33E60007BC784 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Clackmac;
 				TargetAttributes = {
 					0E2A36E91BB33E60007BC784 = {
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E2A37001BB33E60007BC784 /* LaunchScreen.storyboard in Resources */,
+				0EAF0EB21E54AF3A00FFAF55 /* Phrases.plist in Resources */,
+				0EAF0EB41E54AFDF00FFAF55 /* Meanings.plist in Resources */,
 				0E2A36FD1BB33E60007BC784 /* Assets.xcassets in Resources */,
 				0E2A36FB1BB33E60007BC784 /* Main.storyboard in Resources */,
 			);
@@ -196,8 +204,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,8 +249,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -304,6 +316,7 @@
 				0E2A37061BB33E61007BC784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
