@@ -38,7 +38,6 @@
     self.phrases = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Phrases" ofType:@"plist"]].mutableCopy;
     self.meanings = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Meanings" ofType:@"plist"]].mutableCopy;
 
-//    self.navigationItem.rightBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.leftBarButtonItem = addButton;
