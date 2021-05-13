@@ -1,0 +1,14 @@
+{
+  "latestVersion": "1.2.3",
+  "latestVersionCode": "1020000003",
+  "minRequiredVersion": "1.2.0",
+  "minRequiredVersionCode": "1020000000",
+  "minOSVersion": "12.5",
+  "storeUrl": "https://apps.apple.com/us/app/testflight/id899247664",
+  "updateDialog": {
+    "title": "Update Available!",
+    "description": "There is a new version available for download.",
+    "confirmationButton": "Update",
+    "cancelButton": "Later"
+  }
+}
